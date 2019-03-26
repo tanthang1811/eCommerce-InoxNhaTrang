@@ -1,0 +1,412 @@
+/*Global styling*/
+
+* {
+    padding: 0%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif !important;
+    outline: none !important;
+    box-sizing: border-box !important;
+}
+
+.main-section-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/*body styling*/
+
+body {
+    background-color: rgb(245, 243, 243);
+}
+
+
+/*Big warpper styling*/
+
+.master-wrapper {
+    width: 100%;
+    overflow: hidden;
+    padding: 0%;
+    margin: 20px auto;
+}
+
+#big-wrapper section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#big-wrapper {
+    background-color: #FFF;
+    padding: 20px;
+    width: 70%;
+    float: left;
+}
+
+
+/*Header section styling*/
+
+.header-phone-number {
+    margin-left: auto;
+}
+
+.header-phone-number,
+.header-search-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-desc {
+    font-size: 19px;
+    border-bottom: 1px solid #000;
+    color: #0c8597;
+}
+
+.header-logo img {}
+
+.header-phone-number span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF0000;
+}
+
+.header-search-bar input[type="text"] {
+    width: 80%;
+    border-right: none;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.header-search-bar button {
+    width: 15%;
+    border-left: none;
+    margin-left: -5px;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.bg-search>* {
+    background-color: #FFF;
+    border: 1px solid #000;
+}
+
+
+/*Navigator section styling*/
+
+#navigator .navbar {
+    width: 100%;
+    background-color: silver;
+    border-bottom: 5px solid #e67e22;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e67e22 !important;
+    transition: all 0.3s linear 0s;
+}
+
+.nav-item:hover {
+    background-color: #e67e22;
+}
+
+.nav-item:hover .nav-link {
+    color: #FFF !important;
+}
+
+.active-nav {
+    background-color: #e67e22 !important;
+}
+
+.active-nav>* {
+    color: #FFF !important;
+}
+
+.nav-item {
+    padding: 5px;
+    background-color: #C0C0C0;
+    transition: all 0.3s linear 0s;
+}
+
+
+/*SLider styling*/
+
+@keyframes sliding {
+    0% {
+        left: 0;
+    }
+    30% {
+        left: 0;
+    }
+    35% {
+        left: -100%;
+    }
+    70% {
+        left: -100%;
+    }
+    75% {
+        left: -200%;
+    }
+    80% {
+        left: -200%;
+    }
+    100% {
+        left: -200%;
+    }
+}
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure img {
+    position: relative;
+    width: 33.33%;
+    float: left;
+}
+
+#slider figure {
+    position: relative;
+    width: 300%;
+    animation: sliding 20s linear 0s infinite;
+}
+
+
+/*Overview section styling*/
+
+.bold-para {
+    font-weight: bold;
+}
+
+
+/*Product section title*/
+
+#product-title {
+    text-align: center;
+}
+
+.product-heading h5 {
+    width: 100%;
+    background-color: #d46e15;
+    padding: 15px;
+    padding-left: 30px;
+    color: #FFF;
+}
+
+.product-heading {
+    position: relative;
+}
+
+.product-heading::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top: 10px solid #d46e15;
+    border-right: 10px solid transparent;
+    transform: rotate(-180deg);
+    background-color: #FFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product-heading::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FFF;
+    position: absolute;
+    top: 8%;
+    left: 0.8%;
+}
+
+.product-box {
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.product-desc {
+    margin: 10px auto;
+    width: 80%;
+}
+
+.product-img img {
+    width: 90%;
+}
+
+.product-desc {
+    font-weight: bold;
+}
+
+
+/*Side bar styling*/
+
+#side-bar-wrapper {
+    width: 30%;
+    padding-left: 20px;
+    float: right;
+}
+
+#side-bar-wrapper section {
+    background-color: #FFF;
+    border: 1px solid rgba(80, 80, 80, 0.507);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+/*Sidebar special header*/
+
+.side-bar-special-header {
+    background-color: #d46e15;
+    margin: -10px;
+    padding: 10px;
+    color: #FFF;
+}
+
+.side-bar-special-header span {
+    float: right;
+    transform: translateX(-5px);
+    transition: all 0.3s linear 0s;
+}
+
+.side-bar-special-header span:hover {
+    transform: translateX(5px);
+}
+
+.aside-boxes {
+    margin-top: 20px;
+}
+
+
+/*Customer service styling*/
+
+#customer-service {
+    height: auto;
+}
+
+#customer-service h5 {
+    position: relative;
+}
+
+#customer-service h5::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(238, 238, 238);
+}
+
+#customer-service h5::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 2px;
+    background-color: #d46e15;
+}
+
+.service-item img {
+    width: 100px;
+}
+
+.service-item span {
+    margin-left: 20%;
+}
+
+
+/*Customer List styling*/
+
+.customer-list-item {
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.customer-list-item:last-child {
+    border-bottom: none;
+}
+
+.customer-list-item-header {
+    overflow: hidden;
+}
+
+.customer-list-item-header img {
+    width: 30%;
+    float: left;
+    padding-top: 20px;
+}
+
+.customer-list-item-header p {
+    float: right;
+    width: 60%;
+    padding-top: 20px;
+}
+
+.customer-list-item-desc {
+    display: block;
+    margin-top: 10px;
+}
+
+
+/*Trash bag styling*/
+
+.trash-item {
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+/*Footer section*/
+
+#footer-navigator {
+    background-color: #FFF;
+}
+
+.footer-nav-title {
+    font-size: 22px;
+}
+
+.footer-nav-desc {
+    padding-top: 30px;
+}
+
+.footer-nav-title::after {
+    content: "";
+    width: 20%;
+    height: 2px;
+    background-color: #C0C0C0;
+    display: block;
+}
+
+.footer-box {
+    padding-top: 50px;
+}
+
+
+/*Footer section styling*/
+
+#footer {
+    background-color: black;
+    color: #fff;
+}
+
+
+/*Fixed phone number*/
+
+.fixed-phone-number a {
+    padding: 10px;
+    background-color: red;
+    color: #FFF;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+}
