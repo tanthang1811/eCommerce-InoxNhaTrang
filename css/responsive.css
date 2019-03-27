@@ -1,12 +1,27 @@
 @media (min-width: 320px) and (max-width: 1024px) {
-    #big-wrapper {
+    #big-wrapper,
+    #side-bar-wrapper,
+    #product-item-desc img,
+    .product-item-desc-detail,
+    .main-topic,
+    .subtitute-topic,
+    .rowTab input,
+    .rowTab textarea {
         width: 100%;
         display: block;
         padding: 20px;
     }
-    #side-bar-wrapper {
-        width: 100%;
-        padding: 20px;
-        display: block;
+    /*Order section*/
+    #product-item-desc img {
+        float: none;
+    }
+    .product-item-desc-detail {
+        float: none;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .buttonTab,
+    .thank-you {
+        margin: 0 auto;
     }
 }
