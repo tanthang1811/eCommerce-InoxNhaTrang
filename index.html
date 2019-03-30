@@ -11,6 +11,7 @@
     <!--Custom CSS-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Inox Anh Trang</title>
 </head>
 
@@ -58,7 +59,7 @@
                     <div class="nav-bar-background">
                         <div class="nav-bar-content">
                             <ul class="main-nav">
-                                <li class="nav-item">
+                                <li class="nav-item active-nav">
                                     <a class="nav-link" href="">Tủ nấu cơm</a>
                                 </li>
                                 <li class="nav-item">
@@ -88,11 +89,22 @@
             <div class="main-wrapper">
                 <!--slider section-->
                 <section id="slider">
-                    <figure>
+                    <figure style="left: 0% !important; animation: sliding 10s linear 0s infinite;">
                         <img src="img/tu-nau-com-moi-s2.png" alt="">
                         <img src="img/tu-nau-com-moi-s2.png" alt="">
                         <img src="img/tu-nau-com-moi-s2.png" alt="">
+                        <!--
+                            Test Slider
+                            <img src="img/tu-nau-com-moi-s2.png" alt="">
+                            <img src="img/about-us-pic.jpg" alt="">
+                            <img src="img/cool-html-css-js-image.jpg" alt="">
+                        -->
                     </figure>
+                    <div class="slider-nav">
+                        <button class="slider-nav-filled slider-nav-item"></button>
+                        <button class="slider-nav-filled slider-nav-item"></button>
+                        <button class="slider-nav-filled slider-nav-item"></button>
+                    </div>
                 </section>
 
                 <!--Overview section-->
@@ -409,21 +421,126 @@
                         <i class="fas fa-arrow-circle-right"></i>
                     </div>
                     <div class="box-content">
+                        <ul class="customer-list-content">
+
+                            <li class="customer-list-item">
+                                <div class="list-item-header">
+                                    <img src="img/tu-com-cong-nghiep-12-khay-300x300.png" alt="">
+                                    <p class="bold-para">Học viện Khoa học Quân sự tin dùng tủ nấu cơm</p>
+                                </div>
+                                <div class="list-item-desc">
+                                    <p>Tủ nấu cơm là thiết bị thông dụng, được sử dụng phổ biến ở hệ thống nhà hàng, trường học...</p>
+                                </div>
+                            </li>
+                            <li class="customer-list-item">
+                                <div class="list-item-header">
+                                    <img src="img/tu-com-cong-nghiep-12-khay-300x300.png" alt="">
+                                    <p class="bold-para">Học viện Khoa học Quân sự tin dùng tủ nấu cơm</p>
+                                </div>
+                                <div class="list-item-desc">
+                                    <p>Tủ nấu cơm là thiết bị thông dụng, được sử dụng phổ biến ở hệ thống nhà hàng, trường học...</p>
+                                </div>
+                            </li>
+                            <li class="customer-list-item">
+                                <div class="list-item-header">
+                                    <img src="img/tu-com-cong-nghiep-12-khay-300x300.png" alt="">
+                                    <p class="bold-para">Học viện Khoa học Quân sự tin dùng tủ nấu cơm</p>
+                                </div>
+                                <div class="list-item-desc">
+                                    <p>Tủ nấu cơm là thiết bị thông dụng, được sử dụng phổ biến ở hệ thống nhà hàng, trường học...</p>
+                                </div>
+                            </li>
+                            <li class="customer-list-item">
+                                <div class="list-item-header">
+                                    <img src="img/tu-com-cong-nghiep-12-khay-300x300.png" alt="">
+                                    <p class="bold-para">Học viện Khoa học Quân sự tin dùng tủ nấu cơm</p>
+                                </div>
+                                <div class="list-item-desc">
+                                    <p>Tủ nấu cơm là thiết bị thông dụng, được sử dụng phổ biến ở hệ thống nhà hàng, trường học...</p>
+                                </div>
+                            </li>
+                            <li class="customer-list-item">
+                                <div class="list-item-header">
+                                    <img src="img/tu-com-cong-nghiep-12-khay-300x300.png" alt="">
+                                    <p class="bold-para">Học viện Khoa học Quân sự tin dùng tủ nấu cơm</p>
+                                </div>
+                                <div class="list-item-desc">
+                                    <p>Tủ nấu cơm là thiết bị thông dụng, được sử dụng phổ biến ở hệ thống nhà hàng, trường học...</p>
+                                </div>
+                            </li>
+                            <li class="customer-list-item">
+                                <div class="list-item-header">
+                                    <img src="img/tu-com-cong-nghiep-12-khay-300x300.png" alt="">
+                                    <p class="bold-para">Học viện Khoa học Quân sự tin dùng tủ nấu cơm</p>
+                                </div>
+                                <div class="list-item-desc">
+                                    <p>Tủ nấu cơm là thiết bị thông dụng, được sử dụng phổ biến ở hệ thống nhà hàng, trường học...</p>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Facebook api box-->
+                <div class="side-bar-box">
+                    <div class="box-header">
+                        <h6>Theo dõi facebook</h6>
+                        <i class="fas fa-arrow-circle-right"></i>
+                    </div>
+                    <div class="box-content facebook-page-content">
+                        <div class="fb-page" data-href="https://www.facebook.com/facebook" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Trash Can box-->
+                <div class="side-bar-box">
+                    <div class="box-header">
+                        <h6>Thùng rác</h6>
+                        <i class="fas fa-arrow-circle-right"></i>
+                    </div>
+                    <div class="box-content trashcan-content">
                         <ul>
                             <li>
-                                <p>>> Hướng dẫn sử dụng</p>
+                                <p>Bạn không thể tìm thấy một địa chỉ nào cung cấp tủ nấu cơm chất lượng hơn bếp 36
+                                </p>
                             </li>
                             <li>
-                                <p>>> Khách hàng của chúng tôip</p>
+                                <p> Một chiếc tủ nấu cơm như thế nào được coi là hoàn thiện
+                                </p>
                             </li>
                             <li>
-                                <p>>> Món ngon dễ làm</p>
+                                <p> Thước đo chuẩn về chất lượng của thiết bị tủ nấu cơm
+                                </p>
                             </li>
                             <li>
-                                <p>>> Thiết bị nhà bếp</p>
+                                <p>Sản phẩm tủ nấu cơm đang được xuất hiện rất nhiều trên những phương tiện truyền thông
+                                </p>
                             </li>
                             <li>
-                                <p>>> Tin tức tổng hợp</p>
+                                <p>Bếp 36 đã hợp tác cùng chuyên gia nước ngoài để sản xuất tủ nấu cơm
+                                </p>
+                            </li>
+                            <li>
+                                <p> Tất cả các sản phẩm tủ nấu cơm do bếp 36 sản xuất đều đạt chất lượng chuẩn quốc tế
+                                </p>
+                            </li>
+                            <li>
+                                <p> Vấn đề mà khách hàng quan tâm nhất về sản phẩm tủ nấu cơm đó chính là thương hiệu
+                                </p>
+                            </li>
+                            <li>
+                                <p> Đâu là yếu tố quyết định sự thành công của tủ nấu cơm
+                                </p>
+                            </li>
+                            <li>
+                                <p> Có tủ nấu cơm sẽ đem lại sức mạnh vượt trội cho nhà hàng của bạn
+                                </p>
+                            </li>
+                            <li>
+                                <p>Đánh giá độ bền của sản phẩm thông qua chất liệu làm tủ nấu cơm</p>
                             </li>
                         </ul>
                     </div>
@@ -432,9 +549,114 @@
 
             </div>
         </aside>
-
     </div>
 
+    <!--Footer section-->
+    <div class="outter-container">
+        <footer>
+            <div class="container">
+
+                <div class="footer-box">
+                    <div class="footer-box-header">
+                        <h5>Doanh nghiệp</h5>
+                    </div>
+                    <div class="footer-box-content">
+                        <p>Anhtrang Production and investment trading joint stock company
+                        </p>
+                        <p>
+                            Mã số doanh nghiệp: 0107094755
+                            <br> Giấy phép ĐKKD số: 0107094755
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer-box">
+                    <div class="footer-box-header">
+                        <h5>Thiết bị điện lạnh</h5>
+                    </div>
+                    <div class="footer-box-content">
+                        <ul>
+                            <li>
+                                <p>Tủ đông công nghiệp
+                                </p>
+                            </li>
+                            <li>
+                                <p>Tủ mát công nghiệp
+                                </p>
+                            </li>
+                            <li>
+                                <p> Ban lanh
+                                </p>
+                            </li>
+                            <li>
+                                <p> Máy làm đá viên
+                                </p>
+                            </li>
+                            <li>
+                                <p>Tủ sấy bát đĩa diệt khuẩn
+                                </p>
+                            </li>
+                            <li>
+                                <p> Máy rửa bát công nghiệp</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-box">
+                    <div class="footer-box-header">
+                        <h5>Văn phòng</h5>
+                    </div>
+                    <div class="footer-box-content address-footer-box">
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i> Số 5, Ngõ 53, Đường Phú Diễn, Bắc Từ Liêm, Hà Nội
+                        </p>
+                        <p>
+                            <i class="fas fa-phone-square"></i> Hotline: 0962 150 326
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope"></i> Email: anhtrang@inoxanhtrang.vn
+                        </p>
+                        <p>
+                            <i class="fas fa-globe"></i> Website: inoxanhtrang.vn
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer-box">
+                    <div class="footer-box-header">
+                        <h5>Nhà máy</h5>
+                    </div>
+                    <div class="footer-box-content address-footer-box">
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i> Số 5, Ngõ 53, Đường Phú Diễn, Bắc Từ Liêm, Hà Nội
+                        </p>
+                        <p>
+                            <i class="fas fa-phone-square"></i> Hotline: 0962 150 326
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope"></i> Email: anhtrang@inoxanhtrang.vn
+                        </p>
+                        <p>
+                            <i class="fas fa-globe"></i> Website: inoxanhtrang.vn
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-copyright">
+                <p>Copyright</p>
+            </div>
+
+            <div class="footer-contact-number">
+                <p><i class="fas fa-phone"></i> 0123 688 3636</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="script/script.js"></script>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2"></script>
 </body>
