@@ -7,7 +7,16 @@
     .footer-box,
     .product-showcase-item,
     .nav-item,
-    .main-wrapper {
+    .main-wrapper,
+    #product-item-overview .product-item-img img,
+    #product-item-overview .product-item-overview-content,
+    .main-topic,
+    .additional-topics,
+    .addtional-topic-img,
+    .addtional-topic-img img,
+    .additional-topic-content,
+    .more-topic-img,
+    .more-topic-content {
         display: block;
         width: 100%;
         float: none;
