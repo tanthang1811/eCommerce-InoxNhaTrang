@@ -3,23 +3,36 @@
         margin: 20px 0px 50px 0px;
         padding: 5px;
     }
+
     .side-bar-wrapper,
     .footer-box,
     .product-showcase-item,
     .nav-item,
-    .main-wrapper {
+    .main-wrapper,
+    #product-item-overview .product-item-img img,
+    #product-item-overview .product-item-overview-content,
+    .main-topic,
+    .additional-topics,
+    .addtional-topic-img,
+    .addtional-topic-img img,
+    .additional-topic-content,
+    .more-topic-img,
+    .more-topic-content {
         display: block;
         width: 100%;
         float: none;
         margin-left: 0%;
     }
+
     .nav-item {
         text-align: center;
     }
+
     .nav-link {
         padding: 0px;
         width: 100%;
     }
+
     header .top-brand-logo,
     header .top-phone-number {
         padding: 0px 0px;
@@ -27,22 +40,35 @@
         display: block;
         text-align: center;
     }
+
     header .top-phone-number {
         padding: 30px 0px;
+    }
+
+    #slider {
+        display: none;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .footer-box {
-        width: 25%;
+        width: 50%;
         padding-top: 30px;
         padding-bottom: 30px;
         float: left;
     }
+
     .product-showcase-item {
-        width: 25%;
+        width: 50%;
         padding: 10px;
         text-align: center;
         float: left;
     }
+
+    .side-bar-box {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 }
